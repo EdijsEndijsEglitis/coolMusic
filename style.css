@@ -2,9 +2,16 @@ body {
   background-color: coral;
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .coolio {
   background-color: crimson;
+  margin-top: 20px;
+  height: 100px;
+  width: 400px;
+  font-weight: bold;
+  border-radius: 6px;
+  color: white;
+  font-size: 40px;
 }
